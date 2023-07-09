@@ -1,143 +1,46 @@
-html,
 body {
-  height: 100%;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  font-family: 'VT323', monospace;
+}
+
+#console {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+  font-size: 20px; 
+  color: white;
+}
+
+#output {
   margin: 0;
   padding: 0;
 }
 
-
-body {
-
-    background: white;
-
+#prompt {
+  display: inline;
+  margin: 0;
 }
 
-header {
-    background-color: #a857ff;
-    color: #333;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
-    font-family: "Source Serif Pro", serif;
-  }
-  
-  nav {
-    display: flex;
-    align-items: center;
-  }
-  
- header a {
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #333;
-    margin-right: 40px;
-  }
-  
-  ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  li a {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #333;
-    margin-right: 20px;
-  }
-  
+#commandInput {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  outline: none;
+  width: 90%;
+}
 
-.welcome {
-    background-color: #f7f7f7;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  .welcome h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .welcome p {
-    font-size: 16px;
-  }  
+.command-line {
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  color: white;
+}
 
-  .collection {
-    background-color: #ffafaf8d;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    padding: 15px;
-    text-align: center;
-  }
-
-.contact-box {
-    background: linear-gradient(to bottom, #f4f4f4, #ddd);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    width: 400px;
-    margin: 0 auto;
-  }
-  
-  .contact-box h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-  
-  .contact-box p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .contact-box a {
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #eee;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contact-box a:hover {
-    background-color: #ddd;
-  }
-  
-  .content {
-    /* Set the minimum height of the content area to push the footer down */
-    min-height: calc(100% - 100px);
-    /* Set the padding to allow space for the footer */
-    padding-bottom: 100px;
-  }
-  
-  footer {
-    background-image: linear-gradient(to right, #0080ff, #00c6ff);
-    color: #fff;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  
-  /* Optional styles to make the footer more visible */
-  footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  /* Code written by Noah Rider [noahrider.com]. Dominic had nothing to do with this, excepe the name.*/
